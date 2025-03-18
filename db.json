@@ -1,0 +1,79 @@
+{
+  "vacancies": [
+    {
+      "id": "1",
+      "job_title": "Старший специалист",
+      "vacancy_title": "Backend-разработчик",
+      "department": "ИТ",
+      "open_date": "2025-03-02",
+      "close_date": "2025-03-08",
+      "gender": "male",
+      "education": "high",
+      "pay_taxs": "before",
+      "pay_low": 40000,
+      "pay_high": 120000,
+      "location": {
+        "region": "Питер",
+        "address": "Походный проезд, 3с1",
+        "station": "Сходненская, Трикотажная и Волоколамская"
+      },
+      "experience": "1 год",
+      "work_schedule": "part_2_2",
+      "work_type": "part",
+      "responsibilities": "",
+      "wishes": "",
+      "advantages": "",
+      "offer": "Дружный коллектив, интересные задачи и возможность быть услышанным;\nПриобретение навыков работы в большой, разветвлённой и сложноподчинённой структуре, задействованной в сфере ИТ;\nОформление в соответствии с ТК РФ;\nПолностью официальная заработная плата"
+    },
+    {
+      "id": "2",
+      "job_title": "Младший специалист",
+      "vacancy_title": "Frontend-разработчик",
+      "department": "ИТ",
+      "open_date": "2025-03-14",
+      "close_date": "2025-04-04",
+      "gender": "male",
+      "education": "high",
+      "pay_taxs": "after",
+      "pay_low": 60000,
+      "pay_high": 100000,
+      "location": {
+        "region": "Москва",
+        "address": "Походный проезд, 3с1",
+        "station": "Сходненская, Трикотажная и Волоколамская"
+      },
+      "experience": "От 1 до 3 лет",
+      "work_schedule": "part_5_2",
+      "work_type": "part",
+      "responsibilities": "",
+      "wishes": "",
+      "advantages": "",
+      "offer": ""
+    },
+    {
+      "id": "3",
+      "job_title": "Стражёр",
+      "vacancy_title": "Аналитик данных",
+      "department": "ИТ-2",
+      "open_date": "2025-03-06",
+      "close_date": "2025-03-22",
+      "gender": "female",
+      "education": "low",
+      "pay_taxs": "before",
+      "pay_low": 50000,
+      "pay_high": 70000,
+      "location": {
+        "region": "Москва",
+        "address": "Походный проезд, 3с1",
+        "station": "Сходненская, Трикотажная и Волоколамская"
+      },
+      "experience": "Без опыта",
+      "work_schedule": "full",
+      "work_type": "full",
+      "responsibilities": "",
+      "wishes": "",
+      "advantages": "",
+      "offer": ""
+    }
+  ]
+}

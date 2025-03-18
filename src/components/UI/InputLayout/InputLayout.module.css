@@ -1,0 +1,20 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.label {
+	color: #4F4F55;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 17px;
+	padding-bottom: 8px;
+}
+
+.hint {
+	color: #BF0003;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 15px;
+	margin-top: 4px;
+}

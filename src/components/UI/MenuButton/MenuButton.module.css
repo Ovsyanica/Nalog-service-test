@@ -1,0 +1,27 @@
+.btnMenu {
+	display: flex;
+	padding: 23px 20px;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	user-select: none;
+}
+
+.btnMenu:hover {
+	padding: 20px;
+}
+
+.btnMenuText {
+	font-weight: 400;
+	line-height: 25px;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+.btnMenu:hover:not(.selected) .btnMenuText {
+	border-bottom: 6px solid #F2C94C;
+}
+
+.selected {
+ background-color: #88A4F5;
+}

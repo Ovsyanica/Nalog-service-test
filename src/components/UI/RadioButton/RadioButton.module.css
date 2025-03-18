@@ -1,0 +1,55 @@
+.wrapper {
+	display: flex;
+}
+
+.option {
+	position: relative;
+}
+
+.label {
+	cursor: pointer;
+	user-select: none;
+}
+
+.input {
+	display: none;
+}
+
+.text {
+	padding-left: 28px;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 20px;
+}
+
+.text::before {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	border: 1px solid #4C73E3;
+}
+
+.text::after {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 4px;
+	width: 10px;
+	height: 10px;
+}
+
+.label:hover .text::before {
+	box-shadow: 0px 0px 3px 1px #35A50080;
+}
+
+.input:checked + .text::before {
+	background-color: #4C73E3;
+}
+
+.input:checked + .text::after {
+	content: url(../../../icons/Checkmark.svg);
+}

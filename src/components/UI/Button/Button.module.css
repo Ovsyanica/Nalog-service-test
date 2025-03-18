@@ -1,0 +1,33 @@
+.btn {
+	width: 250px;
+	border-radius: 26px;
+	padding: 16px 0;
+	font-weight: 800;
+	line-height: 16px;
+	font-size: 15px;
+	/* text-align: center;
+	vertical-align: middle; */
+	border: 1px solid;
+}
+
+.btnPrimary {
+	border-color: #4C73E3;
+	background-color: #4C73E3;
+	color: white;
+}
+
+.btnPrimary:hover {
+	background-color: #88A7FF;
+	border-color: #88A7FF;
+}
+
+.btnSecondary {
+	border-color: #4C73E3;
+	background-color: #FFFFFF;
+	color: #4C73E3;
+}
+
+.btnSecondary:hover {
+	border-color: #88A7FF;
+	color: #88A7FF;
+}

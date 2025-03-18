@@ -1,0 +1,103 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	padding: 16px 28px;
+	border-radius: 16px;
+	background-color: #FFFFFF;
+	gap: 28px;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.date {
+	color: #4F4F55;
+	font-size: 14px;
+	font-weight: 400;
+	opacity: 0.6;
+}
+
+.icon {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+.content {
+	display: flex;
+	align-items: end;
+	justify-content: space-between;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.name {
+	color: #4F4F55;
+	font-weight: 700;
+	font-size: 25px;
+}
+
+.address {
+	display: flex;
+	align-items: center;
+	color: #4F4F55;
+	font-size: 16px;
+	font-weight: 400;
+	opacity: 0.8;
+}
+
+.address .icon {
+	margin-right: 5px;
+}
+
+.properties {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.important {
+	color: #4C73E3;
+	font-weight: 700;
+}
+
+.pay {
+	color: #4F4F55;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.pay .important {
+	font-size: 20px;
+}
+
+.experience {
+	color: #4F4F55;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.experience .important {
+	font-size: 16px;
+}
+
+.station {
+	display: flex;
+	align-items: center;
+	color: #4F4F55;
+	font-size: 16px;
+	font-weight: 400;
+	opacity: 0.8;
+}
+
+.station .icon {
+	margin-right: 5px;
+	opacity: 1;
+}
